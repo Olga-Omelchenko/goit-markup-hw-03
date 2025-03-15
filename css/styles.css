@@ -153,6 +153,10 @@ border: none;
 .butt:focus {
     background-color: #404bbf;
 }
+.section-two{
+  padding: 120px 0 120px  
+}
+
 
 .section-two .title {
     font-weight: 500;
@@ -187,10 +191,13 @@ border: none;
 .container .div-list {
     display: flex;
     gap: 24px;
-    flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
+.div-item{
+width: calc((100% - 72px) / 4);
+flex-basis: calc((100% - 72px) / 4));
 
+}
 .section-three {
     background-color: #f4f4fd;
     text-transform: capitalize;
@@ -296,7 +303,7 @@ border-top: none;
     background-color: #2e2f42;
     padding: 100px 0;
 }
-.footer .logo{
+.logo.footer-logo {
  display: inline-block;
 margin-bottom: 16px;
 }
