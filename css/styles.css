@@ -129,7 +129,10 @@ padding: 188px 0 188px}
     text-align: center;
     color: #ffffff;
     margin-bottom: 48px;
-    max-width: 496px
+    max-width: 496px;
+    margin-left: auto;
+    margin-right:auto ;
+    
 }
 
 .butt {
@@ -146,6 +149,7 @@ height: 56px;
 display: block;
 min-width: 169px;
 border: none;
+margin:0 auto;
 }
 
 
@@ -164,21 +168,23 @@ border: none;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    padding: 120px 0;
+
     margin-bottom: 8px;
 }
 
-.title-visually-hidden {
+
+.visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
     margin: -1px;
-    padding: 0;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
     border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
-
 
 .section-two .text {
     font-size: 16px;
@@ -196,16 +202,20 @@ border: none;
 .div-item{
 width: calc((100% - 72px) / 4);
 flex-basis: calc((100% - 72px) / 4);
-
 }
+
+
 .section-three {
     background-color: #f4f4fd;
     text-transform: capitalize;
     padding: 120px 0;
 }
 
-.section-three .box {
+
+
+ .team-box{
     background-color: #ffffff;
+    color: #ffffff;
 }
 
 .section-three .title-main {
@@ -309,18 +319,16 @@ border-top: none;
     background-color: #2e2f42;
     padding: 100px 0;
 }
-.logo.footer-logo {
+.footer-logo {
  display: inline-block;
 margin-bottom: 16px;
 }
 
-.footer .container {
-    display: flex;
-    flex-direction: column;
-}
+
 .footer .text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    width: 264px;
 }
