@@ -247,6 +247,14 @@ border-radius: 0px 0px 4px 4px;
     padding: 32px 0;
 }
 
+
+.section-four{
+  padding-top: 120px;
+        padding-bottom: 120px;  
+}
+
+
+
 .section-four .title-main {
     text-transform: capitalize;
     font-size: 36px;
@@ -256,10 +264,7 @@ border-radius: 0px 0px 4px 4px;
     color: #2e2f42; 
     margin-bottom: 72px;
 }
-.section-four{
-  padding-top: 120px;
-        padding-bottom: 120px;  
-}
+
 
 .portfolio-list{
     display: flex;
@@ -270,6 +275,7 @@ border-radius: 0px 0px 4px 4px;
  
 .project-card{
 width: calc((100% - 48px) / 3);
+
 }
 
 
